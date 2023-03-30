@@ -5,12 +5,13 @@ export const Inputext = styled.input`
 font-family: 'Montserrat', sans-serif;
   padding: 20px 150px;
   border-radius: 18px;
+  font-size: 20px;
 `;
 
 export const Inputsubmit = styled.input`
 font-family: 'Montserrat', sans-serif;
   padding: 10px 40px;
-  border-radius: 10px;
+  border-radius: 33px;
   font-weight: bold;
   font-size: 18px;
   background: ${colors.black};
