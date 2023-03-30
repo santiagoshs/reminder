@@ -6,8 +6,8 @@ import {
   Forminput,
   Btnupdate,
   Inputupdate,
-  Btndatar,
-  Skewed,
+  Btndelete,
+  Btnedit,
 } from "../components/styles";
 
 const FormEdit = ({ title, setIsEdit, onUpdate, id }) => {
@@ -40,8 +40,8 @@ const DatarInfo = ({ title, setIsEdit, onDelete, id }) => {
       <Tasklist className="task-list">
         {title}
         <Containerbtn>
-          <Btndatar onClick={() => setIsEdit(true)}>Edit</Btndatar>
-          <Btndatar onClick={(e) => onDelete(id)}>Delete</Btndatar>
+          <Btnedit onClick={() => setIsEdit(true)}>Edit</Btnedit>
+          <Btndelete onClick={(e) => onDelete(id)}>Delete</Btndelete>
         </Containerbtn>
       </Tasklist>
     </>
