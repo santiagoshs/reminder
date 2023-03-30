@@ -62,12 +62,12 @@ export const Forminput = styled.div`
 `;
 export const Btnupdate = styled.button`
   font-family: "Montserrat", sans-serif;
-  padding: 10px 20px;s
+  padding: 10px 20px;
   font-weight: bold;
   color: ${colors.white};
   background: ${colors.greenUpdate};
-
-
+  border-radius: 20px;
+  
 `;
 export const Inputupdate = styled.input`
   font-family: "Montserrat", sans-serif;
